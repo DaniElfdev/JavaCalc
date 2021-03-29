@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">JavaCalc</string>
+    <string name="enter">=</string>
+    <string name="actMinus">-</string>
+    <string name="actPlus">+</string>
+    <string name="digitDecimal">,</string>
+    <string name="digitZero">0</string>
+    <string name="digitOne">1</string>
+    <string name="digitSeven">7</string>
+    <string name="digitEight">8</string>
+    <string name="digitNine">9</string>
+    <string name="digitFour">4</string>
+    <string name="digitFive">5</string>
+    <string name="digitTwo">2</string>
+    <string name="rezultat">Rezultat</string>
+    <string name="actDiv">/</string>
+    <string name="actMultiply">*</string>
+    <string name="cancel">C</string>
+    <string name="digitSix">6</string>
+    <string name="brackets">( )</string>
+    <string name="digitThree">3</string>
+    <string name="invert">+ / -</string>
 </resources>

@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/teal_700"
         android:textSize="30sp"
-        android:text="Rezultat"
+        android:text="@string/rezultat"
 
         />
     </LinearLayout>
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="6"
+            android:text="@string/digitSix"
             app:layout_column="2"
             app:layout_gravity="center"
             app:layout_row="1" />
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="3"
+            android:text="@string/digitThree"
             app:layout_column="2"
             app:layout_gravity="center"
             app:layout_row="2" />
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="2"
+            android:text="@string/digitTwo"
             app:layout_column="1"
             app:layout_gravity="center"
             app:layout_row="2" />
@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="5"
+            android:text="@string/digitFive"
             app:layout_column="1"
             app:layout_gravity="center"
             app:layout_row="1" />
@@ -87,7 +87,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="4"
+            android:text="@string/digitFour"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="1" />
@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="9"
+            android:text="@string/digitNine"
             app:layout_column="2"
             app:layout_gravity="center"
             app:layout_row="0" />
@@ -109,7 +109,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="8"
+            android:text="@string/digitEight"
             app:layout_column="1"
             app:layout_gravity="center"
             app:layout_row="0" />
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="7"
+            android:text="@string/digitSeven"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="0" />
@@ -131,7 +131,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="1"
+            android:text="@string/digitOne"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="2" />
@@ -142,7 +142,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="0"
+            android:text="@string/digitZero"
             app:layout_column="0"
             app:layout_gravity="center|top"
             app:layout_row="3" />
@@ -153,7 +153,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text=","
+            android:text="@string/digitDecimal"
             app:layout_column="1"
             app:layout_gravity="center|top"
             app:layout_row="3" />
@@ -164,7 +164,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="+"
+            android:text="@string/actPlus"
             app:layout_column="0"
             app:layout_gravity="bottom|center"
             app:layout_row="3" />
@@ -175,7 +175,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="-"
+            android:text="@string/actMinus"
             app:layout_column="1"
             app:layout_gravity="bottom|center"
             app:layout_row="3" />
@@ -186,7 +186,7 @@
             android:layout_height="190dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="="
+            android:text="@string/enter"
             app:layout_column="2"
             app:layout_gravity="center"
             app:layout_row="3" />
@@ -197,7 +197,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="/"
+            android:text="@string/actDiv"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="3" />
@@ -208,7 +208,7 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="*"
+            android:text="@string/actMultiply"
             app:layout_column="1"
             app:layout_gravity="center" />
 
@@ -219,7 +219,7 @@
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="Button"
+            android:text="@string/brackets"
             app:layout_column="0"
             app:layout_gravity="center"
             app:layout_row="5"
@@ -232,7 +232,7 @@
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="C"
+            android:text="@string/cancel"
             app:layout_column="1" />
 
         <Button
@@ -242,7 +242,7 @@
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"
-            android:text="+ / -"
+            android:text="@string/invert"
             app:layout_column="2"
             app:layout_gravity="center" />
 

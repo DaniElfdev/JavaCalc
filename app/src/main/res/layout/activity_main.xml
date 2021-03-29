@@ -1,30 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:baselineAligned="false"
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3"
+
+
+        <TextView
+
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:text="Calculator Results"
+            android:layout_gravity="end"
+            android:textSize="30sp"
+
+            />
+
     <TextView
-        android:layout_width="wrap_content"
+
+
         android:layout_height="wrap_content"
-        android:text="@string/rezultat"
-        android:textColor="@color/teal_700"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:text="Calculator Results"
+        android:layout_gravity="end"
         android:textSize="30sp"
+
+        />
 
         />
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="wrap_content"
-        android:layout_height="389dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="false"
         android:layout_marginStart="77dp"
         android:layout_marginLeft="77dp"
         android:layout_marginTop="214dp"
@@ -36,8 +60,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="sixOnClick"
             android:text="@string/digitSix"
             app:layout_column="2"
+
             app:layout_gravity="center"
             app:layout_row="1" />
 
@@ -47,8 +73,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="threeOnClick"
             android:text="@string/digitThree"
             app:layout_column="2"
+
             app:layout_gravity="center"
             app:layout_row="2" />
 
@@ -58,8 +86,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="twoOnClick"
             android:text="@string/digitTwo"
             app:layout_column="1"
+
             app:layout_gravity="center"
             app:layout_row="2" />
 
@@ -69,8 +99,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="fiveOnClick"
             android:text="@string/digitFive"
             app:layout_column="1"
+
             app:layout_gravity="center"
             app:layout_row="1" />
 
@@ -80,8 +112,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="fourOnClick"
             android:text="@string/digitFour"
             app:layout_column="0"
+
             app:layout_gravity="center"
             app:layout_row="1" />
 
@@ -91,8 +125,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="nineOnClick"
             android:text="@string/digitNine"
             app:layout_column="2"
+
             app:layout_gravity="center"
             app:layout_row="0" />
 
@@ -102,8 +138,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="eightOnClick"
             android:text="@string/digitEight"
             app:layout_column="1"
+
             app:layout_gravity="center"
             app:layout_row="0" />
 
@@ -113,8 +151,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="sevenOnClick"
             android:text="@string/digitSeven"
             app:layout_column="0"
+
             app:layout_gravity="center"
             app:layout_row="0" />
 
@@ -124,8 +164,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="oneOnClick"
             android:text="@string/digitOne"
             app:layout_column="0"
+
             app:layout_gravity="center"
             app:layout_row="2" />
 
@@ -135,8 +177,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="zeroOnClick"
             android:text="@string/digitZero"
             app:layout_column="0"
+
             app:layout_gravity="center|top"
             app:layout_row="3" />
 
@@ -146,8 +190,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="decimalOnClick"
             android:text="@string/digitDecimal"
             app:layout_column="1"
+
             app:layout_gravity="center|top"
             app:layout_row="3" />
 
@@ -157,8 +203,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="plusOnClick"
             android:text="@string/actPlus"
             app:layout_column="0"
+
             app:layout_gravity="bottom|center"
             app:layout_row="3" />
 
@@ -168,8 +216,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="minusOnClick"
             android:text="@string/actMinus"
             app:layout_column="1"
+
             app:layout_gravity="bottom|center"
             app:layout_row="3" />
 
@@ -179,8 +229,10 @@
             android:layout_height="190dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="equalsOnClick"
             android:text="@string/enter"
             app:layout_column="2"
+
             app:layout_gravity="center"
             app:layout_row="3" />
 
@@ -190,8 +242,10 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="divideOnClick"
             android:text="@string/actDiv"
             app:layout_column="0"
+
             app:layout_gravity="center"
             app:layout_row="3" />
 
@@ -201,7 +255,9 @@
             android:layout_height="wrap_content"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="multiplyOnClick"
             android:text="@string/actMultiply"
+
             app:layout_column="1"
             app:layout_gravity="center" />
 
@@ -212,9 +268,11 @@
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="bracketsOnClick"
             android:text="@string/brackets"
             app:layout_column="0"
             app:layout_gravity="center"
+
             app:layout_row="5"
             tools:text="( )" />
 
@@ -225,6 +283,8 @@
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="clearOnClick"
+
             android:text="@string/cancel"
             app:layout_column="1" />
 
@@ -235,11 +295,13 @@
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"
+            android:onClick="invertOnClick"
             android:text="@string/invert"
+
             app:layout_column="2"
             app:layout_gravity="center" />
 
     </androidx.gridlayout.widget.GridLayout>
 
 
-</RelativeLayout>
+</LinearLayout>

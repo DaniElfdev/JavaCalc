@@ -26,24 +26,27 @@
             android:textSize="30sp"
 
             />
+<!--    <![CDATA[-->
+
+<!--    />-->
+
+<!--    ]]>-->
 
     <TextView
 
 
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:textColor="@color/black"
-        android:text="Calculator Results"
+        android:layout_height="wrap_content"
         android:layout_gravity="end"
+        android:text="Calculator Results"
+        android:textColor="@color/black"
         android:textSize="30sp"
-
-        />
 
         />
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="496dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="false"
         android:layout_alignParentTop="false"
@@ -51,13 +54,13 @@
         android:layout_centerHorizontal="false"
         android:layout_marginStart="77dp"
         android:layout_marginLeft="77dp"
-        android:layout_marginTop="214dp"
+        android:layout_marginTop="25dp"
         android:layout_marginBottom="0dp">
 
         <Button
             android:id="@+id/digitSix"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="sixOnClick"
@@ -70,7 +73,7 @@
         <Button
             android:id="@+id/digitThree"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="threeOnClick"
@@ -83,7 +86,7 @@
         <Button
             android:id="@+id/digitTwo"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="twoOnClick"
@@ -96,7 +99,7 @@
         <Button
             android:id="@+id/digitFive"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="fiveOnClick"
@@ -109,7 +112,7 @@
         <Button
             android:id="@+id/digitFour"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="fourOnClick"
@@ -122,7 +125,7 @@
         <Button
             android:id="@+id/digitNine"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="nineOnClick"
@@ -135,7 +138,7 @@
         <Button
             android:id="@+id/digitEight"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="eightOnClick"
@@ -148,7 +151,7 @@
         <Button
             android:id="@+id/digitSeven"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="sevenOnClick"
@@ -161,7 +164,7 @@
         <Button
             android:id="@+id/digitOne"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="85dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="oneOnClick"
@@ -174,7 +177,7 @@
         <Button
             android:id="@+id/digitZero"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="zeroOnClick"
@@ -187,7 +190,7 @@
         <Button
             android:id="@+id/digitDecimal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="decimalOnClick"
@@ -200,7 +203,7 @@
         <Button
             android:id="@+id/actPlus"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="plusOnClick"
@@ -213,7 +216,7 @@
         <Button
             android:id="@+id/actMinus"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="minusOnClick"
@@ -226,7 +229,7 @@
         <Button
             android:id="@+id/enter"
             android:layout_width="wrap_content"
-            android:layout_height="190dp"
+            android:layout_height="180dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="equalsOnClick"
@@ -239,7 +242,7 @@
         <Button
             android:id="@+id/actDiv"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="divideOnClick"
@@ -252,7 +255,7 @@
         <Button
             android:id="@+id/actMultiply"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:onClick="multiplyOnClick"
@@ -264,7 +267,7 @@
         <Button
             android:id="@+id/actBracket"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"
@@ -279,7 +282,7 @@
         <Button
             android:id="@+id/actClear"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"
@@ -291,7 +294,7 @@
         <Button
             android:id="@+id/actInvert"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:gravity="center_horizontal"
             android:insetLeft="4dp"
             android:insetRight="4dp"

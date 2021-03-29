@@ -8,21 +8,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp">
-
-
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/rezultat"
         android:textColor="@color/teal_700"
         android:textSize="30sp"
-        android:text="@string/rezultat"
 
         />
-    </LinearLayout>
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="wrap_content"
@@ -247,4 +240,6 @@
             app:layout_gravity="center" />
 
     </androidx.gridlayout.widget.GridLayout>
+
+
 </RelativeLayout>

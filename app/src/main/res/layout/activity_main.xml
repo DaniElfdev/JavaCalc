@@ -12,37 +12,33 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
-        android:layout_weight="3"
+        android:layout_weight="3">
 
 
         <TextView
-
-
+            android:textColor="@color/black"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:textColor="@color/black"
-            android:text="Calculator Results"
             android:layout_gravity="end"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:text="Calculator Input"
             android:textSize="30sp"
-
+            android:id="@+id/inputTextView"
             />
-<!--    <![CDATA[-->
-
-<!--    />-->
-
-<!--    ]]>-->
 
     <TextView
-
-
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:text="Calculator Results"
-        android:textColor="@color/black"
         android:textSize="30sp"
-
+        android:id="@+id/resultsTextView"
         />
+
+    </LinearLayout>
+
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="wrap_content"
